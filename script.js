@@ -1,0 +1,1 @@
+const button=document.getElementById('downloadButton');const availability=document.getElementById('availability');button.addEventListener('click',()=>{availability.textContent='Halo-2-Mac.zip sera ajouté ici dès que le fichier final sera disponible.';button.textContent='Téléchargement bientôt disponible';setTimeout(()=>{button.textContent='Télécharger Halo pour Mac'},2600)});
